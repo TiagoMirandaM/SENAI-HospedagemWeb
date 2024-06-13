@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    font-family: "Poppins";
+}
+
+p{
+    font-size: 16px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 19px;
+}
+
+strong{
+    color: #2f86d6;
+}
+
+.allContentContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15vh;
+}
+
+.secaoCabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 5vh;
+    padding-top: 3vh;
+    background-color: #2f86d6;
+}
+
+.divCentralCabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 140vh;
+}
+
+.divLogoETitulo{
+    display: flex;
+    column-gap: 2vh;
+}
+
+.imgLogo{
+    width: 70px;
+}
+
+.h2Titulo{
+    text-align: left;
+}
+
+.pSubtitulo{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.linksDoCabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3vh;
+}
+
+.linksDoCabecalho a{
+    color: white;
+}
+
+.secaoTabelaPrecos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.divCentralTabelaPrecos{
+    width: 140vh;
+}
+
+th{
+    padding: 2vh;
+}
+
+td{
+    width: 30vh;
+    padding: 2vh;
+}
+
+.tBackgroundCinza{
+    background-color: #f6f6f6;
+}
+
+.divAlinhaCelula{
+    display: flex;
+    align-items: center;  
+    justify-content: center; 
+    width: 100%;
+}
+
+.divAlinhaCelula{
+    display: flex;
+    align-items: center;  
+    justify-content: center; 
+    width: 100%;
+}
+
+.divCentralCelula{
+    font-size: 14px;
+}
+
+.divCentralCelulaColuna1{
+    width: 30vh;
+    text-align: left;
+    font-size: 14px;
+}
+
+.divCentralCelulaBolinhaAzul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bolinhaAzul{
+    background-color: #2f86d6;
+    border-radius: 50%;
+    width: 2vh;
+    height: 2vh;
+}
+
+.secaoRodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #2f86d6;
+}
+
+.divCentralRodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 140vh;
+    padding: 10vh;
+    row-gap: 2vh;
+}
+
+.creditosRodape{
+    background-color: #f6f6f6;
+    width: 100%;
+    padding: 2vh;
+}
+
+.informacoesDaEmpresa{
+    color: white;
+}

@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    font-family: "Poppins";
+}
+
+p{
+    font-size: 16px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 19px;
+}
+
+strong{
+    color: #2f86d6;
+}
+
+.allContentContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.secaoCabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 5vh;
+    padding-top: 3vh;
+}
+
+.divCentralCabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 140vh;
+}
+
+.divLogoETitulo{
+    display: flex;
+    column-gap: 2vh;
+}
+
+.imgLogo{
+    width: 70px;
+}
+
+.h2Titulo{
+    text-align: left;
+}
+
+.pSubtitulo{
+    color: #2f86d6;
+}
+
+a{
+    text-decoration: none;
+}
+
+a h4{
+    text-decoration: none;
+    color: white;
+}
+
+a.white:visited{
+    color: white;
+}
+
+.linksDoCabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3vh;
+}
+
+.linksDoCabecalho a{
+    color: black;
+}
+
+.secaoBanner{
+    background-color: #2f86d6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: calc(22vh - 9vh);
+}
+
+.divCentralBanner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 140vh;
+}
+
+.imgBanner{
+    width: 60vh;
+}
+
+.bannerTexto{
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4vh;
+}
+
+.secaoPrimeiroAnuncio{
+    background-color: #233032;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh;
+}
+
+.divCentralAnuncio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 140vh;
+}
+
+.divBotaoPrimeiroAnuncio{
+    display: flex;
+    column-gap: 1vh;
+    background-color: #2f86d6;
+    padding: 3vh;
+    border-radius: 5px;
+}
+
+.imgIconeFoguete{
+    width: 3vh;
+}
+
+.secaoInformacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: calc(22vh - 9vh);
+}
+
+.divCentralInformacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 140vh;
+    row-gap: 10vh;
+}
+
+.divInformacoesTitulo{
+    text-align: center;
+}
+
+.divInformacoesImgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.imgInformacoes{
+    width: 11vh;
+}
+
+.divElementoInformacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vh;
+    text-align: center;
+}
+
+.imgTableIcones{
+    width: 10vh;
+}
+
+.secaoPlanos{
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15vh;
+}
+
+.divCentralSecaoPlanos{
+    display: flex;
+    flex-direction: column;
+    width: 140vh;
+    row-gap: 10vh;
+}
+
+table{
+    background-color: white;
+    padding-top: 2vh;
+    box-shadow: 1vh 1vh 5vh  #2f86d6,
+        -1vh -1vh 5vh  #2f86d6,
+        -1vh 1vh 5vh  #2f86d6,
+        1vh -1vh 5vh  #2f86d6;
+}
+
+td{
+   padding: 2vh;
+}
+
+.tdIndicacoes{
+    font-size: calc(22px - 9px);
+    color: #a89f9f;
+}
+
+.tableLinhaCinza{
+    background-color: #f6f6f6;
+}
+
+.secaoSegundoAnuncio{
+    background-color: #2f86d6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh;
+}
+
+.divCentralAnuncio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 140vh;
+}
+
+.divBotaoSegundoAnuncio{
+    display: flex;
+    column-gap: 1vh;
+    background-color: #233032;
+    padding: 3vh;
+    border-radius: 5px;
+}
+
+.secaoRodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.divCentralRodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 140vh;
+    padding: 10vh;
+    row-gap: 8vh;
+}
+
+.creditosRodape{
+    background-color: #f6f6f6;
+    width: 100%;
+    padding: 2vh;
+}
